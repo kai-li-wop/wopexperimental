@@ -310,7 +310,7 @@ static void UI_Preferences_SetMenuItems(void) {
 		if (trap_Cvar_VariableValue("bot_fastchat") != 0) {
 			s_preferences.botchat.curvalue = 2;
 		} else {
-			s_preferences.botchat.curvalue = 1;			
+			s_preferences.botchat.curvalue = 1;
 		}
 	} else {
 		s_preferences.botchat.curvalue = 0;
